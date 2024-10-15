@@ -4,11 +4,11 @@ import javax.swing.JOptionPane;
 
 public class EjemploAccesoFicheroAleatorio {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		File miFichero=GestionFicheros.seleccionFichero();
 		RandomAccessFile raf = null;
-		double pos=0;
+		long pos=0;
 		try {
 			raf=new RandomAccessFile(miFichero, "rw");
 		} catch (FileNotFoundException e) {
@@ -19,31 +19,31 @@ public class EjemploAccesoFicheroAleatorio {
 		String palabra=JOptionPane.showInputDialog(null, "Introduce la palabra a poner en mayúsculas");
 		String linea;
 		try {
-			do {
-				linea=raf.readLine();
+			while((linea=raf.readLine())!=null) {
 				System.out.println(linea);
-
 				int posicion;
 				posicion=linea.indexOf(palabra);
 				while(posicion!=-1) {
-					System.out.println("SOY INFINITO");
 					StringBuilder sb=new StringBuilder(linea);
 					sb.replace(posicion,posicion+palabra.length(),palabra.toUpperCase());
 					linea=sb.toString();
 					posicion=linea.indexOf(palabra);
 					
 				}
-				raf.seek((long) pos);
-				raf.writeBytes(linea);
+
+				raf.seek(pos);
+                raf.writeBytes(linea + System.lineSeparator());
+                
+                pos = raf.getFilePointer();
 				
-				pos = raf.getFilePointer();
-				
-			}while(linea!=null);
+			};
 		} catch (EOFException e) {
 			System.out.println("Fin del fichero");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}finally {
+			raf.close();
 		}
 	}
 

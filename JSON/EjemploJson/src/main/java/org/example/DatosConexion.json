@@ -1,7 +1,6 @@
-{"dirServer":"localhost","baseDatos":"northwind","puerto":3306,"usuario":"root","clave":""}
 {
   "dirServer": "localhost",
-  "baseDatos": "sakila",
+  "baseDatos": "northwind",
   "puerto": 3306,
   "usuario": "root",
   "clave": ""

@@ -1,0 +1,122 @@
+[
+    {
+        "ProductID": 201,
+        "ProductName": "Queixo Tetilla",
+        "SupplierID": 1,
+        "CategoryID": 4,
+        "QuantityPerUnit": "500g piece",
+        "UnitPrice": 8.5,
+        "UnitsInStock": 50,
+        "UnitsOnOrder": 20,
+        "ReorderLevel": 10,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 202,
+        "ProductName": "Miel de Galicia",
+        "SupplierID": 2,
+        "CategoryID": 4,
+        "QuantityPerUnit": "750g jar",
+        "UnitPrice": 12.0,
+        "UnitsInStock": 100,
+        "UnitsOnOrder": 15,
+        "ReorderLevel": 10,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 203,
+        "ProductName": "Pimientos de Padrón",
+        "SupplierID": 3,
+        "CategoryID": 2,
+        "QuantityPerUnit": "500g bag",
+        "UnitPrice": 3.5,
+        "UnitsInStock": 120,
+        "UnitsOnOrder": 10,
+        "ReorderLevel": 20,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 204,
+        "ProductName": "Pulpo a Feira",
+        "SupplierID": 4,
+        "CategoryID": 5,
+        "QuantityPerUnit": "250g portion",
+        "UnitPrice": 15.0,
+        "UnitsInStock": 80,
+        "UnitsOnOrder": 5,
+        "ReorderLevel": 10,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 205,
+        "ProductName": "Pan de Cea",
+        "SupplierID": 5,
+        "CategoryID": 1,
+        "QuantityPerUnit": "1kg loaf",
+        "UnitPrice": 4.0,
+        "UnitsInStock": 200,
+        "UnitsOnOrder": 50,
+        "ReorderLevel": 25,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 206,
+        "ProductName": "Vino Albariño",
+        "SupplierID": 6,
+        "CategoryID": 3,
+        "QuantityPerUnit": "750ml bottle",
+        "UnitPrice": 10.5,
+        "UnitsInStock": 150,
+        "UnitsOnOrder": 30,
+        "ReorderLevel": 20,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 207,
+        "ProductName": "Castañas Asadas",
+        "SupplierID": 7,
+        "CategoryID": 2,
+        "QuantityPerUnit": "300g bag",
+        "UnitPrice": 5.0,
+        "UnitsInStock": 100,
+        "UnitsOnOrder": 10,
+        "ReorderLevel": 15,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 208,
+        "ProductName": "Caldo Gallego",
+        "SupplierID": 8,
+        "CategoryID": 5,
+        "QuantityPerUnit": "500ml pack",
+        "UnitPrice": 6.0,
+        "UnitsInStock": 180,
+        "UnitsOnOrder": 25,
+        "ReorderLevel": 20,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 209,
+        "ProductName": "Empanada de Zamburiñas",
+        "SupplierID": 9,
+        "CategoryID": 5,
+        "QuantityPerUnit": "400g slice",
+        "UnitPrice": 7.5,
+        "UnitsInStock": 70,
+        "UnitsOnOrder": 15,
+        "ReorderLevel": 10,
+        "Discontinued": 0
+    },
+    {
+        "ProductID": 210,
+        "ProductName": "Tarta de Santiago",
+        "SupplierID": 10,
+        "CategoryID": 4,
+        "QuantityPerUnit": "500g cake",
+        "UnitPrice": 9.0,
+        "UnitsInStock": 60,
+        "UnitsOnOrder": 10,
+        "ReorderLevel": 5,
+        "Discontinued": 0
+    }
+]

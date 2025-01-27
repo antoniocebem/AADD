@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="reLastEntityCreationPackage" value="src/main/java/org/cebem" />
+    <option name="reverseEngineeringLastDbConnectionId" value="e97f09d9-b906-4564-a184-10ae310eed69" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="EjemploHibernate1" name="Default" />
+    </persistence-units>
+  </component>
+</project>
